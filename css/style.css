@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: "Monomaniac One", sans-serif;
+  color: white;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background: url(../img/background.jpg);
+}
+.container {
+  display: flex;
+}
+.container div {
+  flex-basis: 50%;
+}
+h1 {
+  text-align: center;
+  margin: 1%;
+  /* font-size: 40px; */
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  color: black;
+
+}
+h2 {
+  width: 100px;
+  margin: 0 auto;
+}
+img {
+  width: 250px;
+}
+h3 {
+  text-align: center;
+  font-size: 35px;
+  border: 2px solid black;
+}
+#p2 {
+  color: rgb(255, 87, 87);
+}
+#p1 {
+  color: rgb(82, 113, 255);
+}
